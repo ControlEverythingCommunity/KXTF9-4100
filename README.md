@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU: KXTF9-4100_I2CS]
 
 https://www.controleverything.com/products
 
-This Sample code can be used with Raspberry pi and Arduino.
+This Sample code can be used with Raspberry pi, Arduino and Beaglebone Black.
 
 ## Java
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
@@ -47,4 +47,16 @@ Download (or git pull) the code and double click the file to run the program.
 
 Compile and upload the code on Arduino IDE and see the output on Serial Monitor.
 
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+```cpp
+$>gcc KXTF9-4100.c -o KXTF9-4100
+```
+Run the c program.
+```cpp
+$>./KXTF9-4100
+```
 #####The code output is raw value of acceleration in X, Y and Z Axis.
