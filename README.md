@@ -53,10 +53,10 @@ Download (or git pull) the code in Beaglebone Black.
 
 Compile the c program.
 ```cpp
-$>gcc KXTF9-4100.c -o KXTF9-4100
+$>gcc KXTF9_4100.c -o KXTF9_4100
 ```
 Run the c program.
 ```cpp
-$>./KXTF9-4100
+$>./KXTF9_4100
 ```
 #####The code output is raw value of acceleration in X, Y and Z Axis.
